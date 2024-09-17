@@ -12,12 +12,16 @@
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    font-size: 10vw;
+    font-size: 8vw;
+    font-family: Taruno Wide;
+
+
 }
 .style{
     margin-right: 25%;
@@ -33,7 +37,7 @@
     align-self: center;
 }
 .Next{
-    align-self: flex-end;
+    /* align-self: flex-end;
     margin-right: 7%;
     background-color: #0054c5;
     border: 5px solid #0054c5;
@@ -42,7 +46,20 @@
     color: aliceblue;
     height: 10%;
     width: 10%;
-    /* height: 100%; */
+    font-family: Taruno Wide; */
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 30px;
+    margin-right: 7%;
+    width: 6vw;
+    height: 6vw;
+    border: solid 0.5vw #0054c5;
+    border-radius: 100%;
+    z-index: 1;
+    background-color: transparent;
+    font-size: 3vw;
+    color: #0054c5;
+    /* transition: all .2s linear; */
 }
 
 .Footer{
@@ -55,7 +72,8 @@
     overflow:scroll;
 }
 #p1{
-    font-size: 4vw;
+    font-size: 3vw;
+    font-family: Taruno Wide;
     /* margin-top: 4%;*/
     margin-left: 7%;
     align-self: center;
@@ -65,6 +83,7 @@
     /* margin-top: 4%; */
     margin-right: 7%;
     align-self: center;
+    font-family: 'BRUSH TANGSE';
     /* overflow: hidden; */
 
 }
