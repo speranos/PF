@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    flex-wrap: wrap;
 }
 
 .Tittle{
@@ -16,35 +17,37 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    font-size: 200px;
+    font-size: 10vw;
 }
 .style{
-    margin-left: 65%;
+    margin-right: 25%;
+    align-self: flex-end;
     background-color: #0054c5;
     width: 4%;
     height: 9%;
 }
 .sft{
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .en{
-    margin-left: 35%;
+    align-self: center;
 }
 .Next{
     align-self: flex-end;
     margin-right: 7%;
     background-color: #0054c5;
     border: 5px solid #0054c5;
-    border-radius: 5px;
-    font-size: 30px;
+    border-radius: 100%;
+    font-size: 2vw;
     color: aliceblue;
+    height: 10%;
+    width: 10%;
     /* height: 100%; */
 }
 
 .Footer{
     height: 20vh;
     background-color: black;
-    /* border: 5px solid red; */
     color: aliceblue;
     display: flex;
     justify-content: space-between;
@@ -52,14 +55,16 @@
     overflow:scroll;
 }
 #p1{
-    font-size: 70px;
-    margin-top: 4%;
+    font-size: 4vw;
+    /* margin-top: 4%;*/
     margin-left: 7%;
+    align-self: center;
 }
 #p2{
-    font-size: 50px;
-    margin-top: 4%;
+    font-size: 3vw;
+    /* margin-top: 4%; */
     margin-right: 7%;
+    align-self: center;
     /* overflow: hidden; */
 
 }
