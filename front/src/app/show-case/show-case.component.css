@@ -1,0 +1,13 @@
+.main{
+    border: 6px solid red;
+    display: flex;
+    height: 83vh;
+    background-image: url('../../assets/images/Home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+}

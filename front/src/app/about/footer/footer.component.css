@@ -1,0 +1,20 @@
+.footer{
+    background-color: #0054c5;
+    display: flex;
+    height: 17vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: aliceblue;
+    overflow: scroll;
+}
+
+.Tittle{
+    align-self: center;
+    margin-left: 7%;
+    font: 3vw 'Taruno Wide';
+}
+.by{
+    align-self: center;
+    margin-right: 7%;
+    font: 3vw 'BRUSH TANGSE';
+}

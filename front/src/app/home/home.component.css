@@ -36,12 +36,19 @@
     align-self: center;
 }
 .Next{
+    border: 1vw solid;
+    border-radius: 50%;
+    padding: 5px;
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
     cursor: pointer;
     align-self: flex-end;
     margin-right: 10%;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: bolder;
-    color: #0054c5;
+    /* color: #0054c5; */
+    color: black;
 }
 
 .Footer{
@@ -56,16 +63,12 @@
 #p1{
     font-size: 3vw;
     font-family: Taruno Wide;
-    /* margin-top: 4%;*/
     margin-left: 7%;
     align-self: center;
 }
 #p2{
     font-size: 3vw;
-    /* margin-top: 4%; */
     margin-right: 7%;
     align-self: center;
     font-family: 'BRUSH TANGSE';
-    /* overflow: hidden; */
-
 }

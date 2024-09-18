@@ -1,0 +1,50 @@
+.main{
+    background-image: url('../../assets/images/About.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 83vh;
+    color: aliceblue;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: scroll;
+}
+.Tittle{
+    /* border: 5px solid red; */
+    display: flex;
+    /* width: fit-content; */
+    margin: 5% 10% 5% 10%;
+}
+.box{
+    border: 5px solid #0054c5;
+    background-color: #0054c5;
+    height: 100%;
+    width: 2vw;
+}
+.about{
+    font: 7vw 'Taruno Wide';
+    margin-left: 6%;
+}
+.para{
+    margin: 0 15% 0 14%;
+    font: 35px 'Namdhinggo';
+    overflow: scroll;
+}
+.pagination{
+    display: flex;
+    align-self: center;
+}
+.Pre, .Next{
+    border: 0.5vw solid  #0054c5;
+    border-radius: 100%;
+    font: 3vw 'Taruno Wide';
+    margin: 7%;
+    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 5px;
+    width: 4vw;
+    height: 3vw;
+    color:  #0054c5;
+}
